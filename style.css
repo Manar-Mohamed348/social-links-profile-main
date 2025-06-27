@@ -1,0 +1,95 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.parent{
+    background-color: rgb(53, 53, 53);
+    margin: 50px auto;
+    width: 350px;
+    height: 570px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    position: relative;
+}
+.parent img{
+    width: 80px;
+    height: 80px;
+    display: flex;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    left: 50%;
+    top: 10px;
+    transform:translateY(20px) translateX(135px);
+    -webkit-transform:translateY(20px) translateX(135px);
+    -moz-transform:translateY(20px) translateX(135px);
+    -ms-transform:translateY(20px) translateX(135px);
+    -o-transform:translateY(20px) translateX(135px);
+}
+.parent h1{
+    text-align: center;
+    margin-top: 35px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 32px;
+    color: white;
+    font-weight: lighter;
+}
+.parent p:first-of-type{
+        text-align: center;
+    margin-top: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+    color: rgb(162, 255, 0);
+}
+.parent p:last-of-type{
+            text-align: center;
+    margin: 15px 0px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+    color: rgb(191, 191, 191);
+}
+.links{
+ transform: translate(10px,10px);
+ -webkit-transform: translate(10px,10px);
+ -moz-transform: translate(10px,10px);
+ -ms-transform: translate(10px,10px);
+ -o-transform: translate(10px,10px);
+ margin: 15px ;
+}
+.links a{
+    display: block;
+    width: 95%;
+    margin: 18px 0;
+    border-radius: 10px;
+    text-align: center;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    background-color: rgb(127, 127, 127);
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+.attribution {
+        font-size: 15px;
+        margin-left: 26px;
+        padding-top: 4px;
+        color: white;
+}
+.attribution a{
+    text-decoration: none;
+    color: rgb(171, 171, 171);
+}
+.links a:hover{
+      background-color:rgb(162, 255, 0);
+      color: black;
+}
